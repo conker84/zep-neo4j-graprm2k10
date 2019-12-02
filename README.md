@@ -3,7 +3,7 @@
 Spin-up the stack
 
 ```
-docker-compose -f .\neo4j-zeppelin.yml up
+docker-compose up -d
 ```
 
 Note that the "Load Dependencies" notebook must be executed just once at the first start of Zeppelin
